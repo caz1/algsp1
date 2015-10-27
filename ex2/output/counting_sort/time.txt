@@ -1,48 +1,12 @@
-it takes318us to sort 8numbers
-it takes309us to sort 32numbers
-it takes296us to sort 128numbers
-it takes390us to sort 512numbers
-it takes331us to sort 2048numbers
-it takes371us to sort 8192numbers
-it takes 317us to sort 8numbers
-it takes 305us to sort 32numbers
-it takes 361us to sort 128numbers
-it takes 330us to sort 512numbers
-it takes 339us to sort 2048numbers
-it takes 374us to sort 8192numbers
-it takes 306us to sort 8numbers
-it takes 295us to sort 32numbers
-it takes 296us to sort 128numbers
-it takes 333us to sort 512numbers
-it takes 332us to sort 2048numbers
-it takes 403us to sort 8192numbers
-it takes 296us to sort 8numbers
-it takes 440us to sort 32numbers
-it takes 304us to sort 128numbers
-it takes 286us to sort 512numbers
-it takes 325us to sort 2048numbers
-it takes 433us to sort 8192numbers
-it takes 300us to sort 8numbers
-it takes 337us to sort 32numbers
-it takes 300us to sort 128numbers
-it takes 287us to sort 512numbers
-it takes 332us to sort 2048numbers
-it takes 438us to sort 8192numbers
-it takes 294us to sort 8numbers
-it takes 333us to sort 32numbers
-it takes 308us to sort 128numbers
-it takes 286us to sort 512numbers
-it takes 325us to sort 2048numbers
-it takes 435us to sort 8192numbers
-it takes 295us to sort 8numbers
-it takes 346us to sort 32numbers
-it takes 309us to sort 128numbers
-it takes 286us to sort 512numbers
-it takes 333us to sort 2048numbers
-it takes 437us to sort 8192numbers
-it takes 293us to sort 8numbers
-it takes 337us to sort 32numbers
-it takes 309us to sort 128numbers
+it takes 360us to sort 8numbers
+it takes 330us to sort 32numbers
+it takes 292us to sort 128numbers
+it takes 291us to sort 512numbers
+it takes 390us to sort 2048numbers
+it takes 442us to sort 8192numbers
+it takes 357us to sort 8numbers
+it takes 334us to sort 32numbers
+it takes 290us to sort 128numbers
 it takes 289us to sort 512numbers
-it takes 333us to sort 2048numbers
-it takes 445us to sort 8192numbers
+it takes 352us to sort 2048numbers
+it takes 453us to sort 8192numbers

@@ -9,14 +9,14 @@ void config()
 	system("md ex2\\output\\merge_sort");
 	system("md ex2\\output\\radix_sort");
 	system("md ex2\\output\\counting_sort");
-#elif linux  
-	system("mkdir ex2/input");
-	system("mkdir ex2/output");
-	system("mkdir ex2/output/insert_sort");
-	system("mkdir ex2/output/quick_sort");
-	system("mkdir ex2/output/merge_sort");
-	system("mkdir ex2/output/radix_sort");
-	system("mkdir ex2/output/counting_sort");
+#else  
+	system("mkdir -p ex2/input");
+	system("mkdir -p ex2/output");
+	system("mkdir -p ex2/output/insert_sort");
+	system("mkdir -p ex2/output/quick_sort");
+	system("mkdir -p ex2/output/merge_sort");
+	system("mkdir -p ex2/output/radix_sort");
+	system("mkdir -p ex2/output/counting_sort");
 
 #endif
 	fstream fs_digit;
@@ -47,9 +47,7 @@ void test()
 	ofstream ofs, time;
 	string temp;
 	clock_t begin, end;
-	//system("cd ..");
 	ifs.open("ex2/input/input_num.txt");
-	if (ifs.is_open()) cout << "error" << endl;
 	for (int i = 3; i <= 13; i += 2)
 	{
 		unsigned short *B = new unsigned short[1 << i];

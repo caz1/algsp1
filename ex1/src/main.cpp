@@ -26,31 +26,14 @@ void config()
 	system("md ex1\\output\\quick_sort");
 	system("md ex1\\output\\shell_sort");
 
-	system("md ex2\\input");
-	system("md ex2\\output\\insert_sort");
-	system("md ex2\\output\\quick_sort");
-	system("md ex2\\output\\merge_sort");
-	system("md ex2\\output\\radix_sort");
-	system("md ex2\\output\\counting_sort");
-
-
-
-#elif linux  
-	system("mkdir ex1/input");
-	system("mkdir ex1/output");
-	system("mkdir ex1/output/shell_sort");
-	system("mkdir ex1/output/bubble_sort");
-	system("mkdir ex1/output/heap_sort");
-	system("mkdir ex1/output/merge_sort");
-	system("mkdir ex1/output/quick_sort");
-
-	system("mkdir ex2/input");
-	system("mkdir ex2/output");
-	system("mkdir ex2/output/insert_sort");
-	system("mkdir ex2/output/quick_sort");
-	system("mkdir ex2/output/merge_sort");
-	system("mkdir ex2/output/radix_sort");
-	system("mkdir ex2/output/counting_sort");
+#else  
+	system("mkdir -p ex1/input");
+	system("mkdir -p ex1/output");
+	system("mkdir -p ex1/output/shell_sort");
+	system("mkdir -p ex1/output/bubble_sort");
+	system("mkdir -p ex1/output/heap_sort");
+	system("mkdir -p ex1/output/merge_sort");
+	system("mkdir -p ex1/output/quick_sort");
 
 #endif
 	fstream fs_str;
