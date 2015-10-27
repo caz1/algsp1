@@ -1,0 +1,66 @@
+it takes4us to sort 4strings
+it takes15us to sort 16strings
+it takes97us to sort 64strings
+it takes457us to sort 256strings
+it takes1694us to sort 1024strings
+it takes4066us to sort 4096strings
+it takes 1us to sort 4strings
+it takes 5us to sort 16strings
+it takes 29us to sort 64strings
+it takes 220us to sort 256strings
+it takes 842us to sort 1024strings
+it takes 4045us to sort 4096strings
+it takes 3us to sort 4strings
+it takes 14us to sort 16strings
+it takes 78us to sort 64strings
+it takes 391us to sort 256strings
+it takes 1599us to sort 1024strings
+it takes 4014us to sort 4096strings
+it takes 3us to sort 4strings
+it takes 14us to sort 16strings
+it takes 88us to sort 64strings
+it takes 431us to sort 256strings
+it takes 1648us to sort 1024strings
+it takes 3960us to sort 4096strings
+it takes 3us to sort 4strings
+it takes 15us to sort 16strings
+it takes 85us to sort 64strings
+it takes 433us to sort 256strings
+it takes 1654us to sort 1024strings
+it takes 3965us to sort 4096strings
+it takes 1us to sort 4strings
+it takes 5us to sort 16strings
+it takes 32us to sort 64strings
+it takes 172us to sort 256strings
+it takes 878us to sort 1024strings
+it takes 4056us to sort 4096strings
+it takes 2us to sort 4strings
+it takes 5us to sort 16strings
+it takes 29us to sort 64strings
+it takes 165us to sort 256strings
+it takes 804us to sort 1024strings
+it takes 4000us to sort 4096strings
+it takes 1us to sort 4strings
+it takes 5us to sort 16strings
+it takes 32us to sort 64strings
+it takes 161us to sort 256strings
+it takes 808us to sort 1024strings
+it takes 4442us to sort 4096strings
+it takes 2us to sort 4strings
+it takes 10us to sort 16strings
+it takes 64us to sort 64strings
+it takes 327us to sort 256strings
+it takes 1463us to sort 1024strings
+it takes 4609us to sort 4096strings
+it takes 2us to sort 4strings
+it takes 5us to sort 16strings
+it takes 30us to sort 64strings
+it takes 183us to sort 256strings
+it takes 828us to sort 1024strings
+it takes 4075us to sort 4096strings
+it takes 1us to sort 4strings
+it takes 5us to sort 16strings
+it takes 29us to sort 64strings
+it takes 157us to sort 256strings
+it takes 813us to sort 1024strings
+it takes 4053us to sort 4096strings

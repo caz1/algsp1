@@ -1,0 +1,48 @@
+it takes1us to sort 8numbers
+it takes3us to sort 32numbers
+it takes16us to sort 128numbers
+it takes89us to sort 512numbers
+it takes377us to sort 2048numbers
+it takes1763us to sort 8192numbers
+it takes 1us to sort 8numbers
+it takes 4us to sort 32numbers
+it takes 17us to sort 128numbers
+it takes 82us to sort 512numbers
+it takes 400us to sort 2048numbers
+it takes 1798us to sort 8192numbers
+it takes 1us to sort 8numbers
+it takes 4us to sort 32numbers
+it takes 16us to sort 128numbers
+it takes 85us to sort 512numbers
+it takes 378us to sort 2048numbers
+it takes 1935us to sort 8192numbers
+it takes 1us to sort 8numbers
+it takes 4us to sort 32numbers
+it takes 16us to sort 128numbers
+it takes 80us to sort 512numbers
+it takes 389us to sort 2048numbers
+it takes 1865us to sort 8192numbers
+it takes 1us to sort 8numbers
+it takes 4us to sort 32numbers
+it takes 16us to sort 128numbers
+it takes 78us to sort 512numbers
+it takes 395us to sort 2048numbers
+it takes 1857us to sort 8192numbers
+it takes 0us to sort 8numbers
+it takes 4us to sort 32numbers
+it takes 16us to sort 128numbers
+it takes 88us to sort 512numbers
+it takes 392us to sort 2048numbers
+it takes 1843us to sort 8192numbers
+it takes 0us to sort 8numbers
+it takes 4us to sort 32numbers
+it takes 16us to sort 128numbers
+it takes 81us to sort 512numbers
+it takes 384us to sort 2048numbers
+it takes 1848us to sort 8192numbers
+it takes 1us to sort 8numbers
+it takes 4us to sort 32numbers
+it takes 16us to sort 128numbers
+it takes 80us to sort 512numbers
+it takes 387us to sort 2048numbers
+it takes 1913us to sort 8192numbers

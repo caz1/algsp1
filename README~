@@ -1,0 +1,20 @@
+******************
+Test the programs:
+******************
+
+Before running the programs, compile the source file:
+    linux> make
+Running the programs:
+    linux> make run
+They will store the output to the files. And for the prime program, you should input two integers and it will print the gcd of them.    
+
+******
+Files:
+******
+
+Makefile	Build the executable files 	
+README		This file
+ex1/ 		materials for ex1
+ex2/		materials for ex2
+
+

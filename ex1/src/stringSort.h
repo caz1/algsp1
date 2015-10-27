@@ -1,0 +1,87 @@
+#ifndef STRINGSORT_H_
+#define STRINGSORT_H_
+
+
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <vector>
+#include <fstream>
+#include <cstring>
+#include <ctime>
+
+#ifdef _WIN32
+#include <Windows.h>
+#endif
+
+
+using namespace std;
+
+const char charset[] = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"; //define the char set for generate the random string
+
+
+template <typename T> class mySort{
+public:
+	static void quickSort(T &A, int begin, int end);
+	static int partition(T&, int begin, int end);
+	static void insertSort(T& A, int length, int gap);
+};
+
+template <typename T>
+static int compare(T a, T b){
+	if (a > b) return 1;
+	else if (a < b) return -1;
+	else return 0;
+}
+
+template <typename T>
+void mySort<T>::quickSort(T &A, int begin, int end){
+	int mid;
+
+	if (begin < end){
+		mid = partition(A, begin, end);
+		mySort::quickSort(A, begin, mid - 1);
+		mySort::quickSort(A, mid + 1, end);
+	}
+}
+
+template <typename T>
+int mySort<T>::partition(T& A, int begin, int end){
+	int x = rand() % (end - begin) + begin;
+	int i;
+
+	i = begin - 1;
+	swap(A[end], A[x]);
+	for (int j = begin; j < end; j++){
+		if (compare(A[j], A[end]) == -1 \
+			|| compare(A[j], A[end]) == 0){
+			i++;
+			swap(A[i], A[j]);
+		}
+	}
+	swap(A[++i], A[end]);
+	return i;
+}
+
+template <typename T>
+void mySort<T>::insertSort(T& A, int length, int gap){
+	int j;
+	
+	for (int i = 0; i < length; i += gap){
+		for (j = i - gap; j >= 0 && compare(A[j], A[i]) == 1; j -= gap);
+		if (j >= 0) swap(A[i], A[j]);
+		for (int k = i - gap; k >= 0 && k >= j; k -= gap)	
+			swap(A[k], A[k + gap]);
+	}
+
+}
+
+void heapSort(vector<string> &);
+void bubbleSort(vector<string> &);
+
+void shellSort(vector<string> &);
+
+void mergeSort(vector<string>&, int, int);
+
+void print(unsigned short*, int);
+#endif
